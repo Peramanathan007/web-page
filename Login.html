@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Login</title>
+<style>
+*{
+  margin:0;
+ }
+body
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100vh;
+background-image:url('plain.jfif');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+h1
+{
+ color:white;
+ font-family: "Oswald", sans-serif;
+ margin: 20px 0;
+ text-align: center;
+}
+.login-form
+{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 500px;
+color: white;
+font-size: 18px;
+font-family: sans-serif;
+background-color:light blue;
+padding: 10px;
+border-radius:18px;
+border:8px solid white;
+}
+.New-register
+{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1px 0;
+width: 20%;
+font-size: 20px;
+font-weight: 600;
+color:black;
+background-color: #fff;
+border-radius: 3px;
+}
+
+</style>
+</head>
+<body>
+     <div class="Login_Form">
+      <h1>Login</h1>
+      <form name="login" class="login-form" onsubmit="return formValidation()">
+      <table>
+      <tr>
+      <td><label>MailId</label><br></td>
+      <td><input type="email" name="Username" placeholder="Enter your MailId"></td>
+      </tr>
+      <tr>
+      <td><label>Password</label></td>
+      <td><input type="password" mame="password" placeholder="Enter your Password"></td>
+      </tr>
+      <td><a href="Forget password.htm">forget password</a></td>
+      <td><button type="submit">Submit</button></td>  
+      </table>   
+      </form>
+      </div>
+      <div class="New-register">
+      <table>
+      <tr>
+      <td><label>New user--</label></td>
+      <td><a href="New register.htm">Signup</a></td>
+      </tr>
+      </div>
+</body>
+</html>
